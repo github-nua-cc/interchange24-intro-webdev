@@ -1,10 +1,6 @@
 const audioButton = document.getElementById("play-audio-button");
-const audio = new Audio("./audio/audio_one.wav");
+const audio = new Audio("./audio/audio.wav");
 audio.loop = true;
-
-const setNewAudio = (audioSrc) => {
-  audio.src = audioSrc;
-};
 
 const playAudio = () => {
   audio.play();

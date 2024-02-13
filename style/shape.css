@@ -1,66 +1,66 @@
 /* all elements */
 * {
   /* margin / padding */
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
 /* buttons default */
 button {
   /* size */
-  height: 30px;
-  width: 140px;
+  /* height: 30px; */
+  /* width: 140px; */
 
   /* margin / padding */
-  margin: 10px;
-  padding: 5px;
+  /* margin: 10px; */
+  /* padding: 5px; */
 
   /* border */
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 /* title div */
 .title-container {
   /* size */
-  width: 100vw;
-  height: 10vh;
+  /* width: 100vw; */
+  /* height: 10vh; */
 
   /* margin / padding */
-  padding: 10px;
-  margin-bottom: 5vh;
+  /* padding: 10px; */
+  /* margin-bottom: 5vh; */
 }
 
 /* title element */
 .title-element {
   /* size */
-  width: 33vw;
+  /* width: 33vw; */
 }
 
 /* interaction div */
 .container {
   /* size */
-  width: 50vw;
-  height: 60vh;
+  /* width: 50vw; */
+  /* height: 60vh; */
 
   /* padding */
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .container img {
   /* size */
-  height: 60%;
-  width: auto;
+  /* height: 60%; */
+  /* width: auto; */
 }
 
 #big-red-button {
   /* size */
-  height: 500px;
-  width: 500px;
+  /* height: 500px; */
+  /* width: 500px; */
 
   /* border */
-  border-radius: 50%;
+  /* border-radius: 50%; */
 
   /* shadow */
-  box-shadow: 0 8px 0 rgb(183,9,0), 
-    0 15px 20px rgba(0,0,0,.35);
+  /* box-shadow: 0 8px 0 rgb(183,9,0), 
+    0 15px 20px rgba(0,0,0,.35); */
 }

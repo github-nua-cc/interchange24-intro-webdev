@@ -1,29 +1,29 @@
 body {
-  background-color: beige;
+  /* background-color: beige; */
 }
 
 button {
-  background-color: aquamarine;
-  color: coral;
+  /* background-color: aquamarine; */
+  /* color: coral; */
 }
 
 button:hover {
-  background-color: beige;
+  /* background-color: beige; */
 }
 
 .container {
-  background-color: coral;
+  /* background-color: coral; */
 }
 
 .title-container {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .red-text {
-  color: red;
+  /* color: red; */
 }
 
 #big-red-button {
-  background-color: red;
-  color: white;
+  /* background-color: red; */
+  /* color: white; */
 }

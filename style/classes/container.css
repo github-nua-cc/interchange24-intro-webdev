@@ -1,0 +1,15 @@
+/* interaction div */
+.container {
+  /* size */
+  width: 50vw;
+  height: 60vh;
+
+  /* container background */
+  background-color: coral;
+}
+
+.container img {
+  /* size */
+  height: 60%;
+  width: auto;
+}

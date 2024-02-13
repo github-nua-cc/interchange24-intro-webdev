@@ -1,0 +1,17 @@
+* {
+  /* margin / padding */
+  margin: 0;
+  padding: 0;
+}
+
+/* body defaults */
+body {
+  /* background color */
+  /* background-color: beige; */
+
+  /* remove scroll bar */
+  /* overflow: hidden; */
+
+  /* font */
+  /* font-family: fantasy; */
+}

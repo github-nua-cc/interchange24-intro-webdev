@@ -1,0 +1,19 @@
+/* title div */
+.title-container {
+  /* margin / padding */
+  padding: 10px;
+  margin-bottom: 5vh;
+
+  /* size */
+  width: 100vw;
+  height: 10vh;
+
+  /* background color */
+  background-color: aquamarine;
+}
+
+/* title element */
+.title-element {
+  /* size */
+  width: 33vw;
+}

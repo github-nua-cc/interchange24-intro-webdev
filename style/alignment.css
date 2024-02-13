@@ -1,0 +1,19 @@
+/* buttons default */
+button {
+  text-align: center;
+}
+
+/* vertical flexbox - displayed in a column */
+.vertical-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* horizontal flexbox - displayed in a row */
+.horizontal-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

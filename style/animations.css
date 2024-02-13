@@ -1,0 +1,143 @@
+:root {
+  /* left-to-right variables */
+  --left-starting-point: 20vw;
+  --left-first-top: 0vh;
+  --left-second-top: 100vh;
+  --left-third-top: 0vh;
+  --left-fourth-top: 100vh;
+  --left-duration: 15s;
+
+  /* right-to-left variables */
+  --right-starting-point: 0vh;
+  --right-duration: 20s;
+
+  /* up-and-down variables */
+  --updown-starting-point: 20vw;
+  --updown-middle-point: 65vw;
+  --updown-duration: 10s;
+}
+
+/* all animations */
+.animation {
+  /* width */
+  width: 250px;
+
+  /* absolute to allow moving around */
+  position: absolute;
+
+  /* by default are hidden */
+  display: none;
+}
+
+/* once animated */
+.animated {
+  /* show animation */
+  display: block;
+}
+
+/* left to right -> bounces up and down towards the right */
+.animated.left-to-right {
+  /* position */
+  left: var(--left-starting-point);
+  top: 50vh;
+
+  /* animation */
+  animation: left-to-right;
+  animation-duration: var(--left-duration);
+  animation-iteration-count: infinite;
+}
+
+@keyframes left-to-right {
+  0% {
+    left: var(--left-starting-point);
+  }
+  10% {
+    top: var(--left-first-top);
+  }
+  30% {
+    top: var(--left-second-top);
+  }
+  40% {
+    top: var(--left-third-top);
+  }
+  50% {
+    top: var(--left-fourth-top);
+  }
+  60% {
+    top: var(--left-first-top);
+  }
+  70% {
+    top: var(--left-second-top);
+  }
+  80% {
+    top: var(--left-third-top);
+  }
+  90% {
+    top: var(--left-fourth-top);
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+/* right to left -> slowly from top to bottom */
+.animated.right-to-left {
+  /* position */
+  left: 100vh;
+  top: var(--right-starting-point);
+
+  /* animation */
+  animation: right-to-left;
+  animation-duration: var(--right-duration);
+  animation-iteration-count: infinite;
+}
+
+@keyframes right-to-left {
+  0% {
+    left: 100vw;
+    top: var(--right-starting-point);
+  }
+  100% {
+    left: 0px;
+    top: 100vh;
+  }
+}
+
+/* up and down -> bounces up and down first to the right then back left */
+.animated.up-and-down {
+  /* position */
+  left: 20vh;
+  top: 0vh;
+
+  /* animation */
+  animation: up-and-down;
+  animation-duration: var(--updown-duration);
+  animation-iteration-count: infinite;
+}
+
+@keyframes up-and-down {
+  0% {
+    left: var(--updown-starting-point);
+    top: 20vh;
+  }
+  15% {
+    top: 70vh;
+  }
+  30% {
+    top: 15vh;
+  }
+  50% {
+    left: var(--updown-middle-point);
+    top: 70vh;
+  }
+  65% {
+    top: 20vh;
+  }
+  85% {
+    top: 50vh;
+  }
+  100% {
+    left: var(--updown-starting-point);
+    top: 20vh;
+  }
+}

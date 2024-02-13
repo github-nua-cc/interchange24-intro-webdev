@@ -1,0 +1,13 @@
+/* body defaults */
+body {
+  overflow: hidden;
+}
+
+/* buttons default */
+button {
+  /* reset style */
+  all: unset;
+
+  /* change cursor on hover */
+  cursor: pointer;
+}
